@@ -227,6 +227,7 @@ body {
 
 .contact-section {
     padding-top: 60px;
+    min-height: 430px;
 }
 
 .contact-section .row {
@@ -263,7 +264,7 @@ body {
 
 .styled-text {
     color: white;
-    font-size: 3vh !important;
+    font-size: 4vw !important;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -369,7 +370,7 @@ a:hover {
         font-size: 5.5vh !important;
     }
     .styled-text {
-        font-size: 4.5vh !important;
+        font-size: 3vw !important;
     }
     .contact-section img {
         height: 30vh;
