@@ -1,0 +1,490 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+
+.portfolio-section {
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-section .row {
+    height: auto;
+}
+
+.portfolio-section img {
+    position: relative;
+}
+
+.mirror-section {
+    transform: scaleX(-1);
+}
+
+#portfolio-1 {
+    background: linear-gradient(-5deg, #AA8EC1 80%, #F5B0CF 0);
+}
+
+#portfolio-2 {
+    background: linear-gradient(5deg, #F5B0CF 80%, #AA8EC1 0);
+}
+
+#portfolio-3 {
+    background: linear-gradient(-5deg, #AA8EC1 80%, #F5B0CF 0);
+}
+
+#portfolio-1-1 {
+    top: -30vw;
+    left: -6vw;
+    height: 38vw;
+}
+
+#portfolio-1-2 {
+    transform: scaleX(-1) rotate(50deg);
+    height: 22vw;
+    top: -36vw;
+    left: 6vw;
+    z-index: 1;
+}
+
+#portfolio-1-3 {
+    top: -20vw;
+    left: 6vw;
+    height: 34vw;
+}
+
+#portfolio-1-4 {
+    height: 22vw;
+    transform: scaleX(-1) rotate(50deg);
+    top: -18vw;
+    left: 16vw;
+    z-index: 1;
+}
+
+#portfolio-1-5 {
+    top: -4vw;
+    left: 14vw;
+    height: 38vw;
+}
+
+#portfolio-1-6 {
+    height: 22vw;
+    transform: rotate(60deg);
+    top: 12vw;
+    left: -16vw;
+    z-index: 1;
+}
+
+#portfolio-1-7 {
+    top: 26vw;
+    left: -54vw;
+    height: 34vw;
+}
+
+#portfolio-1-8 {
+    height: 22vw;
+    transform: scaleX(-1) rotate(-30deg);
+    top: 28vw;
+    left: 4vw;
+    z-index: 1;
+}
+
+#portfolio-1-9 {
+    top: 36vw;
+    left: -32vw;
+    height: 32vw;
+}
+
+@media (min-width: 578px) {
+
+    #portfolio-1-1 {
+        top: -3vw;
+        left: -1vw;
+        height: 24vw;
+    }
+
+    #portfolio-1-2 {
+        transform: rotate(300deg);
+        height: 14vw;
+        top: 18vw;
+        left: -3vw;
+        z-index: 1;
+    }
+
+    #portfolio-1-3 {
+        left: 0px;
+        top: 10vw;
+        height: 22vw;
+    }
+
+    #portfolio-1-4 {
+        height: 14vw;
+        transform: scaleX(-1) rotate(120deg);
+        top: -2vw;
+        left: -2vw;
+        z-index: 1;
+    }
+
+    #portfolio-1-5 {
+        top: -9vw;
+        left: 0vw;
+        height: 24vw;
+    }
+
+    #portfolio-1-6 {
+        height: 14vw;
+        transform: rotate(-40deg);
+        top: 10vw;
+        left: -8vw;
+        z-index: 1;
+    }
+
+    #portfolio-1-7 {
+        top: 17vw;
+        left: -7vw;
+        height: 18vw;
+    }
+
+    #portfolio-1-8 {
+        height: 14vw;
+        transform: scaleX(-1) rotate(60deg);
+        top: -8vw;
+        left: -8vw;
+        z-index: 1;
+    }
+
+    #portfolio-1-9 {
+        top: 2vw;
+        left: -10vw;
+        height: 22vw;
+    }
+}
+
+#about {
+    height: 100%;
+    background: linear-gradient(5deg, #F5B0CF 80%, white 0);
+}
+
+.row {
+    height: 100%;
+}
+
+.about-me-img {
+    height: 80vh;
+    left: 10vh;
+}
+
+#about-cloud-img {
+    width: 20vh;
+}
+
+#about-its-me-arrow {
+    transform: scaleX(-1) rotate(-90deg);
+    width: 10vh;
+    position: relative;
+    top: -5vh;
+    left: 4vh;
+}
+
+.about-text {
+    font-size: 3vh !important;
+}
+
+.about-its-me-text {
+    position: relative;
+    left: 5vh;
+    color: #AA8EC1;
+    font-size: 6vh;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+#contact {
+    background: linear-gradient(5deg, #E7AECE 80%, #AA8EC1 0);
+}
+
+#contact input,
+#contact textarea {
+    border-radius: 0;
+}
+
+#contact .btn {
+    background-color: white;
+}
+
+.contact-section img {
+    height: 14vh;
+}
+
+.contact-section {
+    padding-top: 60px;
+}
+
+.contact-section .row {
+    width: 100%;
+}
+
+#contact form {
+    width: 100%;
+}
+
+.form-area {
+    background-color: transparent;
+    padding: 0;
+}
+
+@media (min-width: 578px) {
+    .contact-section {
+        height: -webkit-calc(100vh - 50px);
+        height: -moz-calc(100vh - 50px);
+        height: calc(100vh - 50px);
+    }
+
+}
+
+.contact-links {
+    height: 50px;
+    background-color: #AA8EC1;
+}
+
+.contact-links a {
+    font-size: 26px;
+    color: black;
+}
+
+.styled-text {
+    color: white;
+    font-size: 3vh !important;
+    font-family: 'Indie Flower', cursive;
+}
+
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#mainNav {
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #AA8EC1;
+}
+
+#mainNav .navbar-toggler {
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    font-size: 14px;
+    padding: 11px;
+    color: black;
+    border: 1px solid black;
+}
+
+#mainNav .navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#mainNav .collapsed {
+    background: transparent;
+}
+
+#mainNav a {
+    color: black;
+    padding-left: 10px;
+}
+
+#mainNav a img {
+    height: 26px;
+}
+
+#mainNav .navbar-nav .nav-item {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: #F3CBE7;
+}
+
+#mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+/* BOUNCE */
+
+@keyframes bounce {
+    0%,
+    10%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(5px)
+    }
+    40% {
+        transform: translateY(-15px)
+    }
+    60% {
+        transform: translateY(-15px)
+    }
+}
+
+.faa-bounce.animated,
+.faa-bounce.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-bounce {
+    animation: bounce 3s ease infinite;
+}
+
+.contact-links a {
+    margin-right: 15px;
+}
+
+@media (min-width: 775px) {
+    .about-text {
+        font-size: 5.5vh !important;
+    }
+    .styled-text {
+        font-size: 4.5vh !important;
+    }
+    .contact-section img {
+        height: 30vh;
+    }
+    #about-cloud-img {
+        width: 28vh;
+    }
+    .about-its-me-text {
+        position: relative;
+        left: 12vh;
+        color: #AA8EC1;
+        font-size: 10vh;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    #about-its-me-arrow {
+        transform: scaleX(-1) rotate(-90deg);
+        width: 14vh;
+        position: relative;
+        top: -5vh;
+        left: 4vh;
+    }
+}
+
+@media (min-width: 578px) {
+    #mainNav {
+        letter-spacing: 1px;
+        border-bottom: none;
+        background: transparent;
+    }
+
+    #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        background: #AA8EC1;
+    }
+}
+
+.masthead {
+    height: 100%;
+    text-align: center;
+    background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-body {
+    height: 100%;
+}
+
+.btn-circle {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    color: violet;
+    border: 2px solid violet;
+    border-radius: 100% !important;
+    background: transparent;
+}
+
+.btn-circle:focus,
+.btn-circle:hover {
+    color: white;
+    outline: none;
+    background: violet;
+}
+
+.content-wrapper {
+    padding-top: 60px;
+}
+
+.btn {
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+form ::-moz-selection {
+    background: #fcfcfc;
+    background: rgba(0, 0, 0, 0.5);
+    text-shadow: none;
+}
+
+form ::selection {
+    background: #fcfcfc;
+    background: rgba(0, 0, 0, 0.5);
+    text-shadow: none;
+}
+
+
+::-moz-selection {
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+}
+
+::selection {
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
